@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/depixel');
+@keyframes woo{
+    0% {color: #000;}
+    100% {color: #fff;}
+}
+@keyframes colorfulwoo{
+    0% {border-bottom: 1px red solid;}
+    20% {border-bottom: 1px orange solid;}
+    40% {border-bottom: 1px yellow solid;}
+    60% {border-bottom: 1px lime solid;}
+    80% {border-bottom: 1px cyan solid;}
+    100% {border-bottom: 1px purple solid;}
+}
+@keyframes colorfultextwoo{
+    0% {color: red;}
+    20% {color: orange;}
+    40% {color: yellow;}
+    60% {color: lime;}
+    80% {color: cyan;}
+    100% {color: purple;}
+}
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'DePixel', sans-serif;
+    font-weight: 700;
+}
+#idk{
+    animation: woo 5s normal;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+}
+#idk{
+    color: #fff;
+}
+#header{
+    height: 80px;
+    border-bottom: 1px #fff solid;
+    text-align: center;
+    animation: colorfulwoo 5s alternate;
+    animation-iteration-count: infinite;
+}
+#content{
+    margin-top: 20px;
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+a{
+    animation: woo 5s normal;
+}
+a:visited{
+    animation: woo 5s normal;
+}
+#footer{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: smaller;
+    color: #333333;
+}
+a{
+    animation: colorfultextwoo 5s alternate;
+    animation-iteration-count: infinite;
+}
+a:hover{
+    animation: colorfultextwoo 5s alternate;
+    animation-iteration-count: infinite;
+}
+a:visited{
+    animation: colorfultextwoo 5s alternate;
+    animation-iteration-count: infinite;
+}
